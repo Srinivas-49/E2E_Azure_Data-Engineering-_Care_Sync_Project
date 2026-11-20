@@ -47,7 +47,26 @@
 					"items": {
 						"value": "@activity('Read Soucre Tables List').output.value",
 						"type": "Expression"
-					}
+					},
+					"activities": [
+						{
+							"name": "set table_id",
+							"type": "SetVariable",
+							"dependsOn": [],
+							"policy": {
+								"secureOutput": false,
+								"secureInput": false
+							},
+							"userProperties": [],
+							"typeProperties": {
+								"variableName": "test",
+								"value": {
+									"value": "@item().table_id",
+									"type": "Expression"
+								}
+							}
+						}
+					]
 				}
 			}
 		],
