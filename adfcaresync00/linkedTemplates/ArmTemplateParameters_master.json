@@ -1,0 +1,48 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfcaresync00"
+		},
+		"ls_adls_caresync00_accountKey": {
+			"value": ""
+		},
+		"ls_azure_sql_00_password": {
+			"value": ""
+		},
+		"ls_postgres_sql_password": {
+			"value": ""
+		},
+		"ls_adls_caresync00_properties_typeProperties_url": {
+			"value": "https://adlscaresync00.dfs.core.windows.net/"
+		},
+		"ls_azure_sql_00_properties_typeProperties_server": {
+			"value": "sqlservercaresync00.database.windows.net"
+		},
+		"ls_azure_sql_00_properties_typeProperties_database": {
+			"value": "db_caresync_00"
+		},
+		"ls_azure_sql_00_properties_typeProperties_userName": {
+			"value": "CareSync1234"
+		},
+		"ls_key_vault_caresync00_properties_typeProperties_baseUrl": {
+			"value": "https://key-vault-caresync-00.vault.azure.net/"
+		},
+		"ls_postgres_sql_properties_typeProperties_server": {
+			"value": "ep-wandering-fog-bd2kpuvv-pooler.c-8.us-east-2.aws.neon.tech"
+		},
+		"ls_postgres_sql_properties_typeProperties_database": {
+			"value": "neondb"
+		},
+		"ls_postgres_sql_properties_typeProperties_username": {
+			"value": "neondb_owner"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
