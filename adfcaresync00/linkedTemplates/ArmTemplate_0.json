@@ -999,6 +999,7 @@
 				"activities": [
 					{
 						"name": "Read Soucre Tables List",
+						"description": "This is a change in description",
 						"type": "Lookup",
 						"dependsOn": [],
 						"policy": {
