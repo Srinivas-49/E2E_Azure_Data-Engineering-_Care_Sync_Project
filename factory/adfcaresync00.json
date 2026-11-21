@@ -5,6 +5,10 @@
 			"email_receipents": {
 				"type": "string",
 				"value": "narasimhareddymedagam250@gmail.com"
+			},
+			"env": {
+				"type": "string",
+				"value": "DEV"
 			}
 		},
 		"trustModeClaimForMi": {
