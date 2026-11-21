@@ -1013,7 +1013,7 @@
 											{
 												"type": "Query",
 												"text": {
-													"value": "update ctrl.audit_log set status='FALIED',end_time=SYSDATETIME()\nwhere adf_run_id='@{pipeline().parameters.adf_run_id}' and table_id=@{item().table_id}",
+													"value": "update ctrl.audit_log set status='FAILED',end_time=SYSDATETIME()\nwhere adf_run_id='@{pipeline().parameters.adf_run_id}' and table_id=@{item().table_id}",
 													"type": "Expression"
 												}
 											}
