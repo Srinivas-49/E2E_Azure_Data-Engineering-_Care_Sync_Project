@@ -1,6 +1,12 @@
 {
 	"name": "adfcaresync00",
 	"properties": {
+		"globalParameters": {
+			"email_receipents": {
+				"type": "string",
+				"value": "narasimhareddymedagam250@gmail.com"
+			}
+		},
 		"trustModeClaimForMi": {
 			"value": "Disabled",
 			"editable": true,
