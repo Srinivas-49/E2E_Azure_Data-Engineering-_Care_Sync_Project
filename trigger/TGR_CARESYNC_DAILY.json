@@ -14,8 +14,8 @@
 		"type": "ScheduleTrigger",
 		"typeProperties": {
 			"recurrence": {
-				"frequency": "Day",
-				"interval": 1,
+				"frequency": "Month",
+				"interval": 3,
 				"startTime": "2026-11-21T15:16:00",
 				"timeZone": "UTC-11",
 				"schedule": {
@@ -24,6 +24,9 @@
 					],
 					"hours": [
 						5
+					],
+					"monthDays": [
+						31
 					]
 				}
 			}
