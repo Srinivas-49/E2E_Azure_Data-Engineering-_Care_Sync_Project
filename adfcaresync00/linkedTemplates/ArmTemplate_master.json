@@ -15,6 +15,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'ls_azure_sql_00'"
 		},
+		"ls_databricks_caresync_accessToken": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accessToken' of 'ls_databricks_caresync'"
+		},
 		"ls_postgres_sql_password": {
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'ls_postgres_sql'"
@@ -34,6 +38,10 @@
 		"ls_azure_sql_00_properties_typeProperties_userName": {
 			"type": "string",
 			"defaultValue": "CareSync1234"
+		},
+		"ls_databricks_caresync_properties_typeProperties_existingClusterId": {
+			"type": "string",
+			"defaultValue": "1120-210845-ycldy270"
 		},
 		"ls_key_vault_caresync00_properties_typeProperties_baseUrl": {
 			"type": "string",
@@ -84,6 +92,9 @@
 					"ls_azure_sql_00_password": {
 						"value": "[parameters('ls_azure_sql_00_password')]"
 					},
+					"ls_databricks_caresync_accessToken": {
+						"value": "[parameters('ls_databricks_caresync_accessToken')]"
+					},
 					"ls_postgres_sql_password": {
 						"value": "[parameters('ls_postgres_sql_password')]"
 					},
@@ -98,6 +109,9 @@
 					},
 					"ls_azure_sql_00_properties_typeProperties_userName": {
 						"value": "[parameters('ls_azure_sql_00_properties_typeProperties_userName')]"
+					},
+					"ls_databricks_caresync_properties_typeProperties_existingClusterId": {
+						"value": "[parameters('ls_databricks_caresync_properties_typeProperties_existingClusterId')]"
 					},
 					"ls_key_vault_caresync00_properties_typeProperties_baseUrl": {
 						"value": "[parameters('ls_key_vault_caresync00_properties_typeProperties_baseUrl')]"

@@ -11,6 +11,9 @@
 		"ls_azure_sql_00_password": {
 			"value": ""
 		},
+		"ls_databricks_caresync_accessToken": {
+			"value": ""
+		},
 		"ls_postgres_sql_password": {
 			"value": ""
 		},
@@ -25,6 +28,9 @@
 		},
 		"ls_azure_sql_00_properties_typeProperties_userName": {
 			"value": "CareSync1234"
+		},
+		"ls_databricks_caresync_properties_typeProperties_existingClusterId": {
+			"value": "1120-210845-ycldy270"
 		},
 		"ls_key_vault_caresync00_properties_typeProperties_baseUrl": {
 			"value": "https://key-vault-caresync-00.vault.azure.net/"
