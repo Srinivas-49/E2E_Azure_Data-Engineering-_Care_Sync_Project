@@ -8,15 +8,6 @@
 		"ls_adls_caresync00_accountKey": {
 			"value": ""
 		},
-		"ls_azure_sql_00_password": {
-			"value": ""
-		},
-		"ls_databricks_caresync_accessToken": {
-			"value": ""
-		},
-		"ls_postgres_sql_password": {
-			"value": ""
-		},
 		"ls_adls_caresync00_properties_typeProperties_url": {
 			"value": "https://adlscaresync00.dfs.core.windows.net/"
 		},
@@ -30,7 +21,7 @@
 			"value": "CareSync1234"
 		},
 		"ls_databricks_caresync_properties_typeProperties_existingClusterId": {
-			"value": "1120-210845-ycldy270"
+			"value": "1121-155827-kh5yki1o"
 		},
 		"ls_key_vault_caresync00_properties_typeProperties_baseUrl": {
 			"value": "https://key-vault-caresync-00.vault.azure.net/"
