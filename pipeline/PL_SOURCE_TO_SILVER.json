@@ -228,7 +228,7 @@
 						{
 							"type": "Query",
 							"text": {
-								"value": "update ctrl.audit_log set status='SUCCESS',end_time=SYSDATETIME(),records_written=@{activity('bronze_to_silver').output.runOutput}\nwhere adf_run_id='@{pipeline().parameters.adf_run_}' and table_id=@{pipeline().parameters.table_id}",
+								"value": "update ctrl.audit_log set status='SUCCESS',end_time=SYSDATETIME(),records_written=@{activity('bronze_to_silver').output.runOutput}\nwhere adf_run_id='pipeline().parameters.adf_run_id' and table_id=@{pipeline().parameters.table_id}",
 								"type": "Expression"
 							}
 						}
@@ -370,7 +370,7 @@
 			"table_id": {
 				"type": "string"
 			},
-			"adf_run_": {
+			"adf_run_id": {
 				"type": "string"
 			}
 		},
