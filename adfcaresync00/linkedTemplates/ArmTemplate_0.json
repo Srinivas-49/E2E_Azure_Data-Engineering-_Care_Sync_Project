@@ -590,7 +590,7 @@
 						"userProperties": [],
 						"typeProperties": {
 							"on": {
-								"value": "@activity('read water mark').output.firstRow.source_system",
+								"value": "@activity('Read Table Details').output.firstRow.source_system",
 								"type": "Expression"
 							},
 							"cases": [
@@ -929,7 +929,7 @@
 					},
 					"adf_run_id": {
 						"type": "string",
-						"defaultValue": "a12"
+						"defaultValue": "a15"
 					}
 				},
 				"variables": {
